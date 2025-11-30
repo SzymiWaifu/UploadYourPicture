@@ -1,8 +1,8 @@
 <?php
-$server = getenv("DB_SERVER");
-$database = getenv("DB_NAME");
-$username = getenv("DB_USER");
-$password = getenv("DB_PASS");
+$server = getenv("uploadyourpicture");
+$database = getenv("AZURE_MYSQL_DBNAME");
+$username = getenv("AZURE_MYSQL_USERNAME");
+$password = getenv("AZURE_MYSQL_PASSWORD");
 
 try {
     $conn = new PDO(
